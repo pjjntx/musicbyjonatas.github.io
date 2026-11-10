@@ -671,6 +671,13 @@ await import("//musicbyjonatas.com/cdn/shopifycloud/shop-js/modules/v2/chunk.mod
 .header__icons .header__icon--account,
 .header__icons .header__icon--cart { display: none !important; }
 </style>
+<style id="mbj-instagram-header-style">
+.header__icons .mbj-instagram-header { display:inline-flex; align-items:center; justify-content:center; width:28px; height:28px; margin-left:8px; color:inherit; text-decoration:none; flex-shrink:0; }
+.header__icons .mbj-instagram-header:hover { opacity:.7; }
+.header__icons .mbj-instagram-header:focus-visible { outline:2px solid currentColor; outline-offset:2px; }
+.header__icons .mbj-instagram-header svg { width:17px !important; height:17px !important; max-width:17px; max-height:17px; }
+@media (max-width: 749px) { .header__icons .mbj-instagram-header { width:28px; height:28px; margin-left:0; } }
+</style>
 </head>
 
   <body class="gradient animate--hover-default" data-new-gr-c-s-check-loaded="14.1275.0" data-gr-ext-installed="">
@@ -904,6 +911,9 @@ await import("//musicbyjonatas.com/cdn/shopifycloud/shop-js/modules/v2/chunk.mod
 </span>
         
         <span class="visually-hidden">Cart</span></a>
+      <a class="mbj-instagram-header" href="https://www.instagram.com/musicbyjonatas" target="_blank" rel="noopener noreferrer" aria-label="Music by Jonatas on Instagram" title="Instagram">
+        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+      </a>
     </div>
   </header>
 </sticky-header>
@@ -1070,7 +1080,7 @@ Item added to your cart
         </div>
         
         
-          <div class="quick-add no-js-hidden"><a href="https://musicbyjonatas.gumroad.com/l/mystical-haze-vol-1" class="quick-add__submit button button--full-width button--secondary" aria-label="Buy Mystical Haze Vol. 1 on Gumroad">Add to cart</a></div>
+          <div class="quick-add no-js-hidden"><a href="https://musicbyjonatas.gumroad.com/l/mystical-haze-vol-1" class="quick-add__submit button button--full-width button--secondary" aria-label="Get Mystical Haze Vol. 1 on Gumroad">Get It Now!</a></div>
         
         <div class="card__badge bottom left"></div>
       </div>
